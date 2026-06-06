@@ -41,6 +41,7 @@ import org.bukkit.inventory.ItemStack;
  *
  * @author NCBPFluffyBear
  */
+@SuppressWarnings("deprecation")
 public class CargoManipulator extends SimpleSlimefunItem<ItemUseHandler> implements Listener {
 
     private static final Gson GSON = new Gson();

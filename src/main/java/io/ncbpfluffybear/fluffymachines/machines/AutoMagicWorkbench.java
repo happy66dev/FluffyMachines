@@ -13,6 +13,7 @@ import me.mrCookieSlime.Slimefun.api.item_transport.ItemTransportFlow;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
+@SuppressWarnings("deprecation")
 public class AutoMagicWorkbench extends AutoCrafter {
 
     public AutoMagicWorkbench(ItemGroup category, SlimefunItemStack item, RecipeType recipeType, ItemStack[] recipe) {

@@ -43,6 +43,7 @@ import java.util.UUID;
  *
  * @author NCBPFluffyBear
  */
+@SuppressWarnings("deprecation")
 public class SuperheatedFurnace extends NonHopperableBlock {
 
     private static final int[] inputBorder = {0, 2, 9, 11, 18, 19, 20};

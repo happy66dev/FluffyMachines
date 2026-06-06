@@ -47,6 +47,7 @@ import java.util.Locale;
  * @author NCBPFluffyBear
  */
 
+@SuppressWarnings("deprecation")
 public class Barrel extends NonHopperableBlock implements DoubleHologramOwner {
 
     private final String WIKI_PAGE = "barrels";
@@ -664,12 +665,12 @@ public class Barrel extends NonHopperableBlock implements DoubleHologramOwner {
 
     public enum BarrelType {
 
-        SMALL(17280000, "&e一阶蓬松箱子", Material.BEEHIVE, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.OAK_LOG)),
-        MEDIUM(34560000, "&6二阶蓬松箱子", Material.BARREL, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.SMOOTH_STONE)),
-        BIG(69120000, "&b三阶蓬松箱子", Material.SMOKER, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.BRICKS)),
-        LARGE(138240000, "&a四阶蓬松箱子", Material.LODESTONE, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.IRON_BLOCK)),
-        MASSIVE(276480000, "&5五阶蓬松箱子", Material.CRYING_OBSIDIAN, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.OBSIDIAN)),
-        BOTTOMLESS(1728000000, "&c六阶蓬松箱子", Material.RESPAWN_ANCHOR, SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.REINFORCED_PLATE);
+        SMALL(691200, "&e一阶蓬松箱子", Material.BEEHIVE, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.OAK_LOG)),
+        MEDIUM(138240, "&6二阶蓬松箱子", Material.BARREL, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.SMOOTH_STONE)),
+        BIG(2764800, "&b三阶蓬松箱子", Material.SMOKER, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.BRICKS)),
+        LARGE(5529600, "&a四阶蓬松箱子", Material.LODESTONE, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.IRON_BLOCK)),
+        MASSIVE(27648000, "&5五阶蓬松箱子", Material.CRYING_OBSIDIAN, SlimefunItems.REINFORCED_PLATE, new ItemStack(Material.OBSIDIAN)),
+        BOTTOMLESS(172800000, "&c六阶蓬松箱子", Material.RESPAWN_ANCHOR, SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.REINFORCED_PLATE);
 
         private final int defaultSize;
         private final String displayName;

@@ -43,6 +43,7 @@ import java.util.Map;
  *
  * @author NCBPFluffyBear
  */
+@SuppressWarnings("deprecation")
 public class SmartFactory extends SlimefunItem implements EnergyNetComponent, RecipeDisplayItem {
 
     private static final int[] BORDER = new int[] {5, 6, 7, 8, 41, 42, 44, 50, 51, 52, 53};

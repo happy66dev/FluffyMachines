@@ -33,6 +33,7 @@ import java.util.UUID;
  *
  * @author NCBPFluffyBear
  */
+@SuppressWarnings("deprecation")
 public class EnderChestInsertionNode extends SlimefunItem {
 
     private static final Material material = Material.ENDER_CHEST;

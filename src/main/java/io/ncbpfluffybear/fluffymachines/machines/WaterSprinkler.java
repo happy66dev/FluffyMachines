@@ -28,6 +28,7 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * @author FluffyBear
  */
+@SuppressWarnings("deprecation")
 public class WaterSprinkler extends AbstractGrowthAccelerator {
 
     public final ItemSetting<Double> successChance = new ItemSetting<>(this, "success-chance", 0.5);

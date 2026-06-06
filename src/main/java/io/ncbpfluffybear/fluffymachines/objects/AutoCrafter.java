@@ -36,6 +36,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+@SuppressWarnings("deprecation")
 public class AutoCrafter extends SlimefunItem implements EnergyNetComponent {
 
     private static final String WIKI_PAGE = "machines/auto-crafters";

@@ -43,6 +43,7 @@ import java.util.Optional;
  *
  * @author NCBPFluffyBear
  */
+@SuppressWarnings("deprecation")
 public class AutoTableSaw extends SlimefunItem implements EnergyNetComponent {
 
     public static final int ENERGY_CONSUMPTION = 128;

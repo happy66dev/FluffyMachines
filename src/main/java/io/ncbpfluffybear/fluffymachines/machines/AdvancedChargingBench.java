@@ -15,6 +15,7 @@ import org.bukkit.inventory.ItemStack;
 
 import javax.annotation.Nonnull;
 
+@SuppressWarnings("deprecation")
 public class AdvancedChargingBench extends AContainer {
 
     public static final int CAPACITY = 128;

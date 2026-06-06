@@ -21,6 +21,7 @@ import javax.annotation.Nonnull;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("deprecation")
 public class ElectricDustRecycler extends AContainer implements RecipeDisplayItem {
 
     public static final int ENERGY_CONSUMPTION = 32;

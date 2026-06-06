@@ -28,6 +28,7 @@ import java.util.List;
  * @see ElectricDustWasher
  */
 
+@SuppressWarnings("deprecation")
 public class ElectricDustFabricator extends AContainer implements RecipeDisplayItem {
 
     public static final int ENERGY_CONSUMPTION = 256;

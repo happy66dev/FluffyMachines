@@ -29,6 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
 
+@SuppressWarnings("deprecation")
 public final class Utils {
 
     private static final NamespacedKey fluffykey = new NamespacedKey(FluffyMachines.getInstance(), "fluffykey");

@@ -244,23 +244,23 @@ public final class FluffyItemSetup {
 
         new UpgradedExplosivePickaxe(tools, FluffyItems.UPGRADED_EXPLOSIVE_PICKAXE,
             RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-            SlimefunItems.SYNTHETIC_EMERALD, SlimefunItems.SYNTHETIC_EMERALD, SlimefunItems.SYNTHETIC_EMERALD,
+            SlimefunItems.CARBONADO, SlimefunItems.URANIUM, SlimefunItems.CARBONADO,
             new ItemStack(Material.TNT), SlimefunItems.EXPLOSIVE_PICKAXE, new ItemStack(Material.TNT),
-            null, new ItemStack(Material.OBSIDIAN), null
+            SlimefunItems.POWER_CRYSTAL, new ItemStack(Material.OBSIDIAN),  SlimefunItems.POWER_CRYSTAL
         }).register(plugin);
 
         new UpgradedExplosiveShovel(tools, FluffyItems.UPGRADED_EXPLOSIVE_SHOVEL,
             RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-            SlimefunItems.SYNTHETIC_EMERALD, SlimefunItems.SYNTHETIC_EMERALD, SlimefunItems.SYNTHETIC_EMERALD,
+            SlimefunItems.CARBONADO, SlimefunItems.URANIUM, SlimefunItems.CARBONADO,
             new ItemStack(Material.TNT), SlimefunItems.EXPLOSIVE_SHOVEL, new ItemStack(Material.TNT),
-            null, new ItemStack(Material.OBSIDIAN), null
+            SlimefunItems.POWER_CRYSTAL, new ItemStack(Material.OBSIDIAN), SlimefunItems.POWER_CRYSTAL
         }).register(plugin);
 
         new Paxel(tools, FluffyItems.PAXEL,
             RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-            SlimefunItems.SYNTHETIC_EMERALD, new ItemStack(Material.DIAMOND_PICKAXE), SlimefunItems.SYNTHETIC_EMERALD,
-            SlimefunItems.REINFORCED_ALLOY_INGOT, new ItemStack(Material.DIAMOND_AXE), SlimefunItems.REINFORCED_ALLOY_INGOT,
-            SlimefunItems.SYNTHETIC_DIAMOND, new ItemStack(Material.DIAMOND_SHOVEL), SlimefunItems.SYNTHETIC_DIAMOND,
+            null, new ItemStack(Material.DIAMOND_PICKAXE), null,
+            SlimefunItems.SYNTHETIC_EMERALD, new ItemStack(Material.DIAMOND_AXE), SlimefunItems.SYNTHETIC_EMERALD,
+            null, new ItemStack(Material.DIAMOND_SHOVEL), null,
         }).register(plugin);
 
         // Machines

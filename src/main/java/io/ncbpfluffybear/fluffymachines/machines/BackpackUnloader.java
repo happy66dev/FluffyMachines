@@ -28,6 +28,7 @@ import org.bukkit.inventory.ItemStack;
 import javax.annotation.Nonnull;
 import java.util.List;
 
+@SuppressWarnings("deprecation")
 public class BackpackUnloader extends SlimefunItem implements EnergyNetComponent {
 
     public static final int ENERGY_CONSUMPTION = 16;

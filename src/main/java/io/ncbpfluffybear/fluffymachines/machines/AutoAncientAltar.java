@@ -50,6 +50,7 @@ import java.util.Optional;
  *
  * @author NCBPFluffyBear
  */
+@SuppressWarnings("deprecation")
 public class AutoAncientAltar extends SlimefunItem implements EnergyNetComponent {
 
     public static final int ENERGY_CONSUMPTION = 128;
@@ -352,9 +353,9 @@ public class AutoAncientAltar extends SlimefunItem implements EnergyNetComponent
             } catch (IllegalArgumentException ignored) {
             }
 
-        } else if (sfCatalyst instanceof BrokenSpawner brokenSpawner) {
+        } else if (SlimefunUtils.isItemSimilar(catalystItem, SlimefunItems.BROKEN_SPAWNER, false, false)) {
 
-            Optional<ItemStack> result = checkRecipe(brokenSpawner.getItem(), pedestalItems);
+            Optional<ItemStack> result = checkRecipe(SlimefunItems.BROKEN_SPAWNER, pedestalItems);
             if (result.isPresent()) {
                 RepairedSpawner spawner = (RepairedSpawner) SlimefunItems.REPAIRED_SPAWNER.getItem();
                 ItemStack spawnerResult = spawner.getItemForEntityType(spawner.getEntityType(catalystItem).orElse(EntityType.PIG));

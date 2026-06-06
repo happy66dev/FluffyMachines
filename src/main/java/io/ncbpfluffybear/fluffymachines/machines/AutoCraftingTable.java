@@ -46,6 +46,7 @@ import java.util.List;
  *
  * @author NCBPFluffyBear
  */
+@SuppressWarnings("deprecation")
 public class AutoCraftingTable extends SlimefunItem implements EnergyNetComponent {
 
     public static final int ENERGY_CONSUMPTION = 128;

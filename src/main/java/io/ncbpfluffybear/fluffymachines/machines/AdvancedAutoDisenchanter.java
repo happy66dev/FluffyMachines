@@ -42,6 +42,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@SuppressWarnings("deprecation")
 public class AdvancedAutoDisenchanter extends SlimefunItem implements EnergyNetComponent {
 
     private static final int[] BACKGROUND = {0, 1, 2, 3, 4, 5, 6, 7, 8, 12, 14, 21, 22, 23, 36, 37, 38, 42, 43, 44, 45, 46, 47, 51, 52, 53};
