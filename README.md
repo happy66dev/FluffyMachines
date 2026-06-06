@@ -1,4 +1,4 @@
-# FluffyMachines 蓬松机器
+# FluffyMachines 蓬松机器 [魔改版]
 
 这些是我随手做的一些机器。我添加了我能想得到的，或是别的附属不想添加的东西。
 
@@ -95,3 +95,7 @@
 
 可以，不过你不能直接对着超热炉放置节点。  
 在原本要放置超热炉的地方放上箱子，接入货运节点。然后，将箱子替换为超热炉即可。
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=happy66dev/FluffyMachines&type=Date)](https://star-history.com/#happy66dev/FluffyMachines&Date)
