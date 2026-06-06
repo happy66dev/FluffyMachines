@@ -7,7 +7,6 @@ import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 import io.github.thebusybiscuit.slimefun4.api.player.PlayerProfile;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.collections.Pair;
-import io.github.thebusybiscuit.slimefun4.libraries.dough.config.Config;
 import io.ncbpfluffybear.fluffymachines.listeners.KeyedCrafterListener;
 import io.ncbpfluffybear.fluffymachines.utils.Events;
 import io.ncbpfluffybear.fluffymachines.utils.McMMOEvents;
@@ -25,7 +24,6 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import lombok.SneakyThrows;
-import net.guizhanss.minecraft.guizhanlib.updater.GuizhanUpdater;
 import net.guizhanss.slimefun4.utils.WikiUtils;
 import org.bstats.bukkit.Metrics;
 import org.bukkit.Bukkit;
@@ -56,11 +54,6 @@ public class FluffyMachines extends JavaPlugin implements SlimefunAddon {
     public void onEnable() {
         instance = this;
         // Read something from your config.yml
-        Config cfg = new Config(this);
-
-        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("Build ")) {
-            GuizhanUpdater.start(this, getFile(), "SlimefunGuguProject", "FluffyMachines", "master");
-        }
 
         // Register ACT Recipes
         Iterator<Recipe> recipeIterator = Bukkit.recipeIterator();
